@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agenda</title>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+
+    <body>
+        <header class="cabecalho">
+            <div class="titulo">
+                <h1>Agenda pessoal</h1>
+            </div>
+
+            <div class="breadcrumb" id="breadcrumb">               
+                <a id="home" href="./index.html">Home</a>
+                <span id="separador-caminho"></span>
+                <span id="refAtual"></span>
+            </div>
+        </header>
+
+        <div class="container-botoes">
+            <a href="./index.html">
+                <img id="img-home" src="./img_home.svg" alt="home">
+            </a>            
+            <button class="botao-novo" id="botao-novo">Novo Contato</button>
+            <button class="botao-lista" id="botao-lista" >Lista de contatos</button>
+        </div>
+
+        <!--Titulos das telas de adição de Listagem-->
+        <h1 id="titulo"></h1>
+        
+
+        <main>
+
+            <img id="imagem-fundo" src="./imagem_fundo.jpg" alt="imagem de fundo">
+
+                    
+            <ul class="texto-inicial" id="texto-inicial">
+                <li>Adicione seus contatos pessoais com mais praticidade</li>
+                <li>Tenha segurança nos dados salvos</li>
+                <li>Acesse seus contatos de qualquer plataforma</li>
+                <li>Tudo em um só lugar</li>
+            </ul>
+
+            
+            
+            <!--Formulário para adicionar novos contatos-->            
+            <form class="formulario" id="formulario" action="">
+
+                <input id="input-ID" type="hidden">
+                
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </div>
+
+                <div id="container-btn-form">
+                    <button type="submit" id="btn-form" >Salvar</button>
+                </div>
+                
+            </form>
+
+            <!--Lista dos contatos salvos-->
+            <div class="lista-contatos" id="lista-contatos">
+                
+                <!--Será preenchida pelo scrip-->
+
+            </div>
+
+           
+
+        </main>
+
+        <footer>
+            <p>Todos os direitos reservados</p>
+        </footer>
+
+
+        <!--Script JS-->
+        <script type="module" src="./scripts.js"></script>
+
+    </body>
+
+
+</html>
