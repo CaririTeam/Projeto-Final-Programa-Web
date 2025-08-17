@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cabecalho{
+    background-color: #f2ef97;
+    height: 15vh;    
+    color: rgb(10, 10, 10);
+}
+
+.titulo{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.breadcrumb{
+    background-color: #ecf1c5;
+    color: rgb(20, 20, 20);
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    padding-left: 3vh;    
+    font-weight: bolder;
+}
+
+.breadcrumb span{
+    margin-right: 1vw;    
+}
+
+#home{
+    color: rgb(20, 19, 19);
+    margin-right: 1vw; 
+    text-decoration: none;
+}
+
+#img-home{
+    width: 4vw;
+    border: 1px solid rgb(150, 143, 143);
+    display: none;
+}
+
+.container-botoes{
+    height: 15vh;
+    background-color: #3d3e3f;    
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-novo{
+    width: 40vw;
+    height: 8vh;
+    background-color: rgba(21, 93, 170, 0.544); 
+    color: white;
+    border-radius: 8px;    
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.botao-lista{
+    width: 40vw;
+    height: 8vh;
+    background-color: rgba(21, 93, 170, 0.544);  
+    color: white;
+    border-radius: 8px;   
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#titulo{
+    text-align: center;
+    padding-top: 2vh;
+    color: #1f0b80;
+}
+
+main{
+    min-height: 55vh;
+    background-color: white;   
+    display: flex;
+    justify-content: center;
+}
+
+.texto-inicial{
+    font-size: 4vh;
+    padding: 10vh;    
+    list-style-type: none;
+}
+
+.texto-inicial li{
+    margin-bottom: 2vh;
+    border: 1px solid rgb(204, 197, 197);
+    background-color: #c6dbf0;
+    border-radius: 8px;
+    padding: 1vh;
+}
+
+.formulario{
+    width: 90vw;
+    min-height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;    
+    gap: 2vh;
+    display: none;
+    padding-top: 4vh;
+}
+
+.formulario div{
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    
+}
+
+.formulario input{
+    height: 5vh;
+    font-size: 2.5vh;
+}
+
+.formulario button{
+    width: 7vw;
+    height: 7vh;
+    background-color: rgb(2, 129, 8);
+    color: white;
+    font-weight: bolder;
+    border-radius: 8px;   
+    font-size: 2.5vh;
+}
+
+.lista-contatos{
+    width: 90vw;
+    min-height: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 0.1fr;    
+    padding-top: 4vh;
+    color: rgb(14, 14, 14);
+    font-weight: bolder;    
+    gap: 1vw;
+    display: none;
+   
+}
+
+.lista-contatos div{
+    text-align: center;
+    border-bottom: 2px solid black;
+    height: 4vh;
+    width: 100%;
+    font-size: 2.5vh;
+}
+
+.lista-contatos span{ 
+    font-weight: 400;
+    text-align: center;
+}
+
+footer{
+    background-color: #4b4646;
+    height: 15vh;
+    color: white;
+    padding: 3vh;
+    margin-top: 3vh;
+}
+
