@@ -42,10 +42,17 @@ Como o objetivo é didático, o projeto **não utiliza banco de dados**: os dado
 3. Abra o arquivo index.html com a extensão Live Server do VScode;
 
 ## 4. Prints das telas do websistema 📸
-![Tela Inicial](./assets/home.png) 
-![Tela de Novo Contato](./assets/novo.png) 
-![Tela Lista de Contatos](./assets/lista.png) 
-![Tela de Edição](./assets/editar.png)
+<img src="./assets/home.png" width="300px" alt="Tela Inicial" />  
+**Tela Inicial**
+
+<img src="./assets/novo.png" width="300px" alt="Novo Contato" />  
+**Novo Contato**
+
+<img src="./assets/lista.png" width="300px" alt="Lista de Contatos" />  
+**Lista de Contatos**
+
+<img src="./assets/editar.png" width="300px" alt="Tela de Edição" />  
+**Tela de Edição**
 
 ## 5. Uso ▶️
 Na tela inicial, o usuário pode visualizar a lista de contatos ou adicionar um novo.
