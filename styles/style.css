@@ -140,7 +140,7 @@ main{
 
 .lista-contatos{
     width: 90vw;
-    min-height: 5vh;
+    height: 1vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 0.1fr;    
     padding-top: 4vh;
