@@ -13,6 +13,7 @@ O objetivo é a construção de uma **agenda digital** simples para cadastro e g
 5. [Uso](#-uso)
 6. [Contribuição](#-contribuição)
 7. [Licença](#-licença)
+8. [Equipe](#-equipe)
 
 ---
 
@@ -70,5 +71,11 @@ Como o objetivo é didático, o projeto **não utiliza banco de dados**: os dado
 5. Abra um Pull Request
    
 
-## 7. 📄 Licença
+## 7.  Licença 📄
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 8. Equipe 👨‍💻
+
+- Francisco Eudo;
+- Wagner Fernando;
+- Gabriel Vasconcelos.
