@@ -40,16 +40,16 @@ Como o objetivo é didático, o projeto **não utiliza banco de dados**: os dado
 
 ## 4. Prints das telas do websistema 📸
 <p>  Tela Inicial </p>
-<img src="./assets/home.png" width="300px" alt="Tela Inicial" />  
+<img src="./assets/home.png" width="500px" alt="Tela Inicial" />  
 
 <p> Novo Contato </p> 
-<img src="./assets/novo.png" width="300px" alt="Novo Contato" />  
+<img src="./assets/novo.png" width="500px" alt="Novo Contato" />  
 
 <p> Lista de Contatos </p> 
-<img src="./assets/lista.png" width="300px" alt="Lista de Contatos" />  
+<img src="./assets/lista.png" width="500px" alt="Lista de Contatos" />  
 
 <p> Tela de Edição </p> 
-<img src="./assets/editar.png" width="300px" alt="Tela de Edição" />  
+<img src="./assets/editar.png" width="500px" alt="Tela de Edição" />  
 
 
 ## 5. Uso ▶️
