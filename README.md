@@ -39,16 +39,16 @@ Como o objetivo é didático, o projeto **não utiliza banco de dados**: os dado
 3. Abra o arquivo index.html com a extensão Live Server do VScode;
 
 ## 4. Prints das telas do websistema 📸
-Tela Inicial
+<p>  Tela Inicial </p>
 <img src="./assets/home.png" width="300px" alt="Tela Inicial" />  
 
-Novo Contato
+<p> Novo Contato </p> 
 <img src="./assets/novo.png" width="300px" alt="Novo Contato" />  
 
-Lista de Contatos
+<p> Lista de Contatos </p> 
 <img src="./assets/lista.png" width="300px" alt="Lista de Contatos" />  
 
-Tela de Edição
+<p> Tela de Edição </p> 
 <img src="./assets/editar.png" width="300px" alt="Tela de Edição" />  
 
 
