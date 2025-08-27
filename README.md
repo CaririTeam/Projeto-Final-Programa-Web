@@ -1,9 +1,5 @@
 # 📒 Websistema para Armazenamento de Contatos Pessoais
 
-![Status](https://img.shields.io/badge/status-concluído-green)
-![Linguagem](https://img.shields.io/badge/feito%20com-HTML%2C%20CSS%20e%20JS-blue)
-![Licença](https://img.shields.io/badge/license-MIT-yellow)
-
 Este projeto foi desenvolvido como desafio da disciplina de **Programação para Web**.  
 O objetivo é a construção de uma **agenda digital** simples para cadastro e gerenciamento de contatos pessoais.
 
@@ -35,6 +31,7 @@ Como o objetivo é didático, o projeto **não utiliza banco de dados**: os dado
 ---
 
 ## 3. Instalação 🛠
+
 1. Clone o repositório:
    ```bash
    git clone https://github.com/CaririTeam/Projeto-Final-Programa-Web.git
@@ -42,22 +39,28 @@ Como o objetivo é didático, o projeto **não utiliza banco de dados**: os dado
 3. Abra o arquivo index.html com a extensão Live Server do VScode;
 
 ## 4. Prints das telas do websistema 📸
+Tela Inicial
 <img src="./assets/home.png" width="300px" alt="Tela Inicial" />  
-**Tela Inicial**
 
+Novo Contato
 <img src="./assets/novo.png" width="300px" alt="Novo Contato" />  
-**Novo Contato**
 
+Lista de Contatos
 <img src="./assets/lista.png" width="300px" alt="Lista de Contatos" />  
-**Lista de Contatos**
 
+Tela de Edição
 <img src="./assets/editar.png" width="300px" alt="Tela de Edição" />  
-**Tela de Edição**
+
 
 ## 5. Uso ▶️
-Na tela inicial, o usuário pode visualizar a lista de contatos ou adicionar um novo.
-Na lista, é possível editar um contato existente.
-Na tela de edição, também é possível excluir o contato.
+- A tela inicial concentra as principais funcionalidades da agenda;
+- Na tela inicial o usuário terá duas opções: Listar os contatos salvos ou criar um novo;
+- O botão "lista de contatos" leva a uma tela onde serão listados todos os contatos salvos;
+- O botão "novo contato" leva o usuário a um formulário para preenchimento dos dados do novo contato;
+- Na tela da lista de contatos, é possível editar um contato existente atrvés do clique do botão "editar";
+- Ao clicar no botão editar, os dados estarão disponíveis para edição e salvamento;
+- Na tela de edição, também é possível excluir o contato, basta clicar no botão "excluir".
+  
 
 ## 6. Contribuição 🤝
 1. Faça um Fork
@@ -65,6 +68,7 @@ Na tela de edição, também é possível excluir o contato.
 3. Commit suas mudanças (`git commit -m 'Adicionei nova feature'`)
 4. Push (`git push origin minha-feature`)
 5. Abra um Pull Request
+   
 
 ## 7. 📄 Licença
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
